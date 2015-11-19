@@ -2,9 +2,8 @@
 
 #include <boost/optional.hpp>
 
-namespace svt
-{
- //typedef boost::uint_fast64_t Time;
+namespace svt {
+// typedef boost::uint_fast64_t Time;
 typedef unsigned long long Time;
-typedef boost::optional < Time > OptionalTime;
+typedef boost::optional<Time> OptionalTime;
 } // namespace svt

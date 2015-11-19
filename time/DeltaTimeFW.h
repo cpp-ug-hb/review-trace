@@ -6,8 +6,6 @@
 #include <boost/flyweight/hashed_factory.hpp>
 
 namespace svt {
-  typedef boost::flyweight<
-      DeltaTime
-    , boost::flyweights::hashed_factory<>
-  > DeltaTimeFW;
+typedef boost::flyweight<DeltaTime, boost::flyweights::hashed_factory<>>
+    DeltaTimeFW;
 } /* namespace svt */

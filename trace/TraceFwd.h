@@ -2,11 +2,9 @@
 
 #include <boost/intrusive_ptr.hpp>
 
-namespace svt
-{
-  class Trace;
+namespace svt {
+class Trace;
 
-  typedef boost::intrusive_ptr<Trace> TracePtr;
-
+typedef boost::intrusive_ptr<Trace> TracePtr;
 
 } // namespace svt
