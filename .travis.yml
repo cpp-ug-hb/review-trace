@@ -15,5 +15,5 @@ compiler:
      - gcc-4.9
 
 script:
-    - make
-
+    - which "$CXX"
+    - env CC="$CC" CXX="$CXX" make
